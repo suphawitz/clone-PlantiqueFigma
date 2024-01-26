@@ -1,0 +1,54 @@
+.ct-btn-white {
+    display: block;
+    border: 1px solid #000;
+    border-radius: 9999px;
+    color: #000;
+    background-color: transparent;
+    transition: all .25s ease;
+}
+.ct-btn-white:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.ct-btn-dark {
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: transparent;
+    transition: all .25s ease;
+}
+.ct-btn-dark:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.ct-btn-transparent {
+    display: block;
+    border: 1px solid #000;
+    border-radius: 9999px;
+    color: #000;
+    background-color: transparent;
+    transition: all .25s ease;
+}
+.ct-btn-transparent:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+/* btn active */
+.btn-active {
+    background-color: #fff !important;
+    color: #000 !important;
+    border: 1px solid #fff !important;
+}
+
+
+
+/* ============= Header ============= */
+.header {
+    background: url(img/plant_01.jpg) center / cover no-repeat;
+}

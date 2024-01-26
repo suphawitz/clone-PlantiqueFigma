@@ -8,24 +8,44 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- Get fontawsome -->
+    <link rel="stylesheet" href="fontawsome/css/all.min.css">
+    <script src="fontawsome/js/all.min.js"></script>
+
     <!-- Get Tailwind Css -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 
-    <!-- copyright : https://www.figma.com/community/file/1292800014540255746/plantique-glassmorphic-plant-shopping-website-template?searchSessionId=lrtj07n4-orrjw0n3j0h -->
-
-    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-        <div class="md:flex">
-          <div class="md:shrink-0">
-            <img class="h-48 w-full object-cover md:h-full md:w-48" src="img/test.jpg" alt="Modern building architecture">
-          </div>
-          <div class="p-8">
-            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
-            <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-            <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
-          </div>
+   
+    <header class="header h-screen">
+        <div class="container mx-auto px-4 flex flex-col">
+            <div class="flex justify-between py-3">
+                <ul class="flex gap-2 items-center">
+                    <div class="w-full">
+                        <img src="img/plant-03.jpg" width="50px" alt="">
+                    </div>
+                    <li><a class="ct-btn-transparent btn-active px-10 py-3" href="#">Home</a></li>
+                    <li><a class="ct-btn-dark px-10 py-3" href="#">Content</a></li>
+                    <li><a class="ct-btn-dark px-10 py-3" href="#">Blog</a></li>
+                </ul>
+                <ul class="flex gap-2 items-center">
+                    <li><i class="ct-btn-dark p-3 fa-solid fa-magnifying-glass"></i></li>
+                    <li><a class="ct-btn-dark px-10 py-3" href="#">Shop</a></li>
+                    <li><a class="ct-btn-dark px-10 py-3" href="#">Log in</a></li>
+                </ul>
+            </div>
+            <div class="w-full flex justify-center">
+                <div class="w-4/6 text-white">
+                    <div class="relative">
+                        <h1 class="font-bold relative text-9xl text-center">growth</h1>
+                        <span class="absolute top-0 left-0 text-start text-white">Plantique</span>
+                        <p>We're your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (greenhouse to yours!</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </header>
+   
 </body>
 </html>
