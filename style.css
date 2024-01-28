@@ -52,3 +52,30 @@
 .header {
     background: url(img/plant_01.jpg) center / cover no-repeat;
 }
+
+.ct-header-h1 {
+    font-size: 15rem;
+}
+
+
+/* ============= Media only screen ============= */
+/* ------ Screen max-width 1024px ------ */
+@media only screen and (max-width: 1024px) {
+    .ct-header-h1 {
+        font-size: 12rem;
+    }
+}
+
+/* ------ Screen max-width 768px ------ */
+@media only screen and (max-width: 768px) {
+    .ct-header-h1 {
+        font-size: 10rem;
+    }
+}
+
+/* ------ Screen max-width 640px ------ */
+@media only screen and (max-width: 640px) {
+    .ct-header-h1 {
+        font-size: 8rem;
+    }
+}
