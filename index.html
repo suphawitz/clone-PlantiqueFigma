@@ -14,6 +14,16 @@
 
     <!-- Get Tailwind Css -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Get query -->
+    <script src="jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+    <!-- Get SlickJS -->
+    <link rel="stylesheet" href="slick-slider/slick.css">
+    <link rel="stylesheet" href="slick-slider/slick-theme.css">
+    <script src="slick-slider/slick.min.js"></script>
+
 </head>
 <body>
 
@@ -65,6 +75,8 @@
             </div>
         </div>
     </header>
+
+    <!-- Content 01 -->
     <section class="w-full">
         <div class="container mx-auto px-2">
             <div class="flex py-12">
@@ -83,8 +95,11 @@
             </div>
         </div>
     </section>
+    <!-- End Content 01 -->
+
+    <!-- Content 02 -->
     <section class="w-full">
-        <div class="container mx-auto px-2">
+        <div class="container mx-auto px-2 py-3">
             <div class="flex justify-between">
                 <ul class="flex gap-2">
                     <li><a class="ct-btn-dark btn-active-dark px-10 py-3" href="#">Outdoor Plant</a></li>
@@ -131,6 +146,118 @@
             </div>
         </div>
     </section>
+    <!-- End Content 02 -->
    
+
+    <!-- Content 03 | New Plant -->
+    <section class="py-16">
+        <div class="container mx-auto px-2 py-3">
+            <div class="flex md:flex-col lg:flex-row items-center justify-between">
+                <div class="basis-5/12">
+                    <h1 class="font-bold" style="font-size: 5rem;">New Plants</h1>
+                </div>
+                <div class="basis-5/12">
+                    <p class="pl-10">Bring nature insider and shop our big selections of fresh indoor plants including Instagram-worthy houseplants, pet-friendly plants, orchids and one-of-a-kind rare plants.</p>
+                </div>
+            </div>
+
+            <!-- Slider new plant -->
+            <div class="slider-newplant slider w-full pt-8 flex items-center gap-2">
+                <div class="basis-4/12 mr-4 rounded-3xl border border-slate-200">
+                    <div class="p-2 relative">
+                        <div class="w-full h-56 rounded-3xl overflow-hidden">
+                            <img class="rounded-3xl" src="img/plant-07.jpg" alt="">
+                        </div>
+                        <div class="w-full pt-4">
+                            <h1 class="font-semibold text-xl">Peperomia Plant</h1>
+                            <p class="text-sm text-slate-600">Moist must well-drained</p>
+                            <span class="block font-semibold py-4 text-sm">$ 122,058</span>
+                        </div>
+                        <div class="absolute top-5 left-5"><i class="fa-regular fa-heart p-3 rounded-full backdrop-blur-sm bg-white/30 transition hover:bg-red-700 hover:text-white"></i></div>
+                        <div class="absolute bottom-5 right-5"><i class="fa-solid fa-arrow-right ct-btn-dark p-3 rounded-full"></i></div>
+                    </div>
+                </div>
+                <div class="basis-4/12 mr-4 rounded-3xl border border-slate-200">
+                    <div class="p-2 relative">
+                        <div class="w-full h-56 rounded-3xl overflow-hidden">
+                            <img class="rounded-3xl" src="img/plant-08.jpg" alt="">
+                        </div>
+                        <div class="w-full pt-4">
+                            <h1 class="font-semibold text-xl">Fidder-File</h1>
+                            <p class="text-sm text-slate-600">Moist must well-drained</p>
+                            <span class="block font-semibold py-4 text-sm">$ 169,056</span>
+                        </div>
+                        <div class="absolute top-5 left-5"><i class="fa-regular fa-heart p-3 rounded-full backdrop-blur-sm bg-white/30 transition hover:bg-red-700 hover:text-white"></i></div>
+                        <div class="absolute bottom-5 right-5"><i class="fa-solid fa-arrow-right ct-btn-dark p-3 rounded-full"></i></div>
+                    </div>
+                </div>
+                <div class="basis-4/12 mr-4 rounded-3xl border border-slate-200">
+                    <div class="p-2 relative">
+                        <div class="w-full h-56 rounded-3xl overflow-hidden">
+                            <img class="rounded-3xl" src="img/plant-09.jpg" alt="">
+                        </div>
+                        <div class="w-full pt-4">
+                            <h1 class="font-semibold text-xl">Calathea Plant</h1>
+                            <p class="text-sm text-slate-600">Moist must well-drained</p>
+                            <span class="block font-semibold py-4 text-sm">$ 102,554</span>
+                        </div>
+                        <div class="absolute top-5 left-5"><i class="fa-regular fa-heart p-3 rounded-full backdrop-blur-sm bg-white/30 transition hover:bg-red-700 hover:text-white"></i></div>
+                        <div class="absolute bottom-5 right-5"><i class="fa-solid fa-arrow-right ct-btn-dark p-3 rounded-full"></i></div>
+                    </div>
+                </div>
+                <div class="basis-4/12 mr-4 rounded-3xl border border-slate-200">
+                    <div class="p-2 relative">
+                        <div class="w-full h-56 rounded-3xl overflow-hidden">
+                            <img class="rounded-3xl" src="img/plant-10.jpg" alt="">
+                        </div>
+                        <div class="w-full pt-4">
+                            <h1 class="font-semibold text-xl">Peperomia Plant</h1>
+                            <p class="text-sm text-slate-600">Moist must well-drained</p>
+                            <span class="block font-semibold py-4 text-sm">$ 122,058</span>
+                        </div>
+                        <div class="absolute top-5 left-5"><i class="fa-regular fa-heart p-3 rounded-full backdrop-blur-sm bg-white/30 transition hover:bg-red-700 hover:text-white"></i></div>
+                        <div class="absolute bottom-5 right-5"><i class="fa-solid fa-arrow-right ct-btn-dark p-3 rounded-full"></i></div>
+                    </div>
+                </div>
+                <div class="basis-4/12 mr-4 rounded-3xl border border-slate-200">
+                    <div class="p-2 relative">
+                        <div class="w-full h-56 rounded-3xl overflow-hidden">
+                            <img class="rounded-3xl" src="img/plant-06.jpg" alt="">
+                        </div>
+                        <div class="w-full pt-4">
+                            <h1 class="font-semibold text-xl">Peperomia Plant</h1>
+                            <p class="text-sm text-slate-600">Moist must well-drained</p>
+                            <span class="block font-semibold py-4 text-sm">$ 122,058</span>
+                        </div>
+                        <div class="absolute top-5 left-5"><i class="fa-regular fa-heart p-3 rounded-full backdrop-blur-sm bg-white/30 transition hover:bg-red-700 hover:text-white"></i></div>
+                        <div class="absolute bottom-5 right-5"><i class="fa-solid fa-arrow-right ct-btn-dark p-3 rounded-full"></i></div>
+                    </div>
+                </div>
+                <div class="basis-4/12 mr-4 rounded-3xl border border-slate-200">
+                    <div class="p-2 relative">
+                        <div class="w-full h-56 rounded-3xl overflow-hidden">
+                            <img class="rounded-3xl" src="img/plant-03.jpg" alt="">
+                        </div>
+                        <div class="w-full pt-4">
+                            <h1 class="font-semibold text-xl">Peperomia Plant</h1>
+                            <p class="text-sm text-slate-600">Moist must well-drained</p>
+                            <span class="block font-semibold py-4 text-sm">$ 122,058</span>
+                        </div>
+                        <div class="absolute top-5 left-5"><i class="fa-regular fa-heart p-3 rounded-full backdrop-blur-sm bg-white/30 transition hover:bg-red-700 hover:text-white"></i></div>
+                        <div class="absolute bottom-5 right-5"><i class="fa-solid fa-arrow-right ct-btn-dark p-3 rounded-full"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Slider new plant -->
+
+        </div>
+    </section>
+    <!-- End Content 02 -->
+
+    <!-- Get jquery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
+
+    <script src="script.js"></script>
+
 </body>
 </html>
