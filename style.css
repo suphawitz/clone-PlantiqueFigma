@@ -122,7 +122,7 @@
 
 /* ============= Header ============= */
 .header {
-    background: url(img/plant_01.jpg) center / cover no-repeat;
+    background: url(img/plant-01.jpg) center / cover no-repeat;
 }
 
 .ct-header-h1 {
@@ -167,6 +167,45 @@
 }
 .hd-content-3 {
     background: url(img/plant-10.jpg) center / cover no-repeat;
+}
+
+
+
+/* ============= Content 03 ============= */
+.content-3 {
+    height: 20rem;
+}
+
+.content-3 div:first-child {
+    transition: all .25s ease;
+}
+.content-3:hover div:first-child {
+    backdrop-filter: blur(8px);
+}
+
+.content-3 p {
+    display: none;
+    transition: .25s ease;
+}
+.content-3:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.content-3-img-1 {
+    background: url(img/plant-01.jpg) center / cover no-repeat;
+}
+
+.content-3-img-2 {
+    background: url(img/plant-02.jpg) center / cover no-repeat;
+}
+
+.content-3-img-3 {
+    background: url(img/plant-03.jpg) center / cover no-repeat;
+}
+
+.content-3-img-4 {
+    background: url(img/plant-05.jpg) center / cover no-repeat;
 }
 
 
