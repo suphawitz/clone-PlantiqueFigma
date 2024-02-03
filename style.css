@@ -171,7 +171,7 @@
 
 
 
-/* ============= Content 03 ============= */
+/* ============= Content 03 | Indoor Collection ============= */
 .content-3 {
     height: 20rem;
 }
@@ -208,6 +208,37 @@
     background: url(img/plant-05.jpg) center / cover no-repeat;
 }
 
+/* ============= Content 04 | Quality ============= */
+.content-4-arrow i ,
+.content-4-arrow svg {
+    transform: rotate(45deg);
+}
+
+.content-4-active p {
+    display: block !important;
+}
+.content-4-active .content-4-arrow i, 
+.content-4-active .content-4-arrow svg {
+    transform: rotate(-45deg) !important;
+}
+
+.content-4-hover {
+    transition: all 2s ease-in-out;
+}
+
+.content-4-hover:hover p {
+    display: block;
+}
+.content-4-hover:hover .content-4-arrow i,
+.content-4-hover:hover .content-4-arrow svg {
+    transform: rotate(-45deg);
+}
+
+
+/* ============= Content 05 | join ommunity Footer ============= */
+.content-5 {
+    background: url(img/plant-01.jpg) center / cover no-repeat;
+}
 
 
 /* ============= Media only screen ============= */
